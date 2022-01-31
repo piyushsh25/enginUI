@@ -1,0 +1,64 @@
+:root {
+      --color-background: rgba(0, 255, 213, 0.5);
+      --color-primary:#2F97C1;
+      --color-primary-hover:#1CCAD8;
+      --color-icon: #587291;
+      --color-success: #31D843;
+      --color-success-hover:#386C0B;
+      --color-warning:#EABA6B;
+      --color-warning-hover:#FF9F1C;
+      --color-error:#FF6666;
+      --primary-font-family: "Montserrat", sans-serif;
+      
+      /* font size */ 
+      /* sizeNumber *2=actual size(in px)*/
+       --size0: 0rem;
+       --size1: 0.125rem;
+       --size2: 0.25rem;
+       --size3: 0.375rem;
+       --size4: 0.5rem;
+       --size5: 0.625rem;
+       --size6: 0.75rem;
+       --size7: 0.875rem;
+       --size8: 1rem;
+       --size9: 1.125rem;
+       --size10: 1.25rem;
+       --size11:1.5rem;
+       --size12:1.625rem;
+       --size13:1.75rem;
+       --size14: 1.75rem;
+       --size15: 1.875rem;
+       --size16: 2rem;
+       --size17: 2.125rem;
+       --size18: 2.25rem;
+       --size19: 2.375rem;
+       --size20: 2.5rem;
+       --size21: 2.625rem;
+       --size22: 2.75rem;
+       --size23: 2.875rem;
+       --size24: 3rem;
+       --size25: 3.125rem;
+       --size26: 3.25rem;
+       --size27: 3.375rem;
+       --size28: 3.5rem;
+       --size29: 3.625rem;
+       --size30: 3.75rem;
+       --size31: 3.875rem;
+       --size32: 4rem;
+       --size33: 4.125rem;
+       --size34: 4.25rem;
+       --size35: 4.375rem;
+  }
+
+  @media only screen and (max-width:550px){
+    
+    html{
+        font-size:var(--size5);
+    }
+ }
+ 
+ @media only screen and (max-width:830px){
+     html{
+         font-size:var(--size6);
+     }
+ }

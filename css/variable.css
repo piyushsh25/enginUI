@@ -8,9 +8,10 @@
       --color-warning:#EABA6B;
       --color-warning-hover:#FF9F1C;
       --color-error:#FF6666;
+      --color-black:#000;
       --primary-font-family: "Montserrat", sans-serif;
       
-      /* font size */ 
+      /* size */ 
       /* sizeNumber *2=actual size(in px)*/
        --size0: 0rem;
        --size1: 0.125rem;

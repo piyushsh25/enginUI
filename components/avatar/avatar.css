@@ -1,9 +1,7 @@
 @import url("../../css/main.css");
 
 /* Avatar CSS */
-html{
-    background-color: var(--color-background);
-}
+
 .avatar {
     display: inline-flex;
     justify-content: center;

@@ -1,17 +1,14 @@
 :root {
       --color-background: rgba(0, 255, 213, 0.5);
-      --color-primary:#26a7dab6;
+      --color-primary:#2F97C1;
       --color-primary-hover:#1CCAD8;
-      --color-icon: #58729193;
+      --color-icon: #587291;
       --color-success: #31D843;
       --color-success-hover:#386C0B;
       --color-warning:#EABA6B;
       --color-warning-hover:#FF9F1C;
       --color-error:#FF6666;
-      --color-info:rgba(35, 127, 167, 0.575);
       --color-black:#000;
-      --color-danger:rgba(212, 10, 10, 0.568);
-      --color-white:white;
       --primary-font-family: "Montserrat", sans-serif;
       
       /* size */ 
@@ -57,7 +54,7 @@
   @media only screen and (max-width:550px){
     
     html{
-        font-size:var(--size3);
+        font-size:var(--size5);
     }
  }
  

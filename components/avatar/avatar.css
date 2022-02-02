@@ -9,16 +9,17 @@
     margin: var(--size10);
     border-radius: 50%;
     font-weight: bold;
+    font-size: var(--size10);
   }
  .avatar.sm{
      width: var(--size20);
      height: var(--size20);
-     font-size: var(--size10);
+    
  } 
  .avatar.md{
     width:  var(--size25);
     height: var(--size25);    
-    font-size: var(--size10);
+   
  }
  .avatar.lg{
     width:  var(--size30);

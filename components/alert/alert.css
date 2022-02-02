@@ -1,8 +1,6 @@
 @import url("../../css/main.css");
 
-html{
-    margin: 10%;
-}
+
 .alert{
     margin: var(--size5);
     display: flex; 

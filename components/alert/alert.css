@@ -1,0 +1,80 @@
+@import url("../../css/main.css");
+
+html{
+    margin: 10%;
+}
+.alert{
+    margin: var(--size5);
+    display: flex; 
+    align-items: center;
+    padding:var(--size5) var(--size20);
+    width: 100%;
+    background-color: var(--color-background);
+    font-size: var(--size10);
+    white-space: nowrap;
+    position: relative;;
+}
+.icon{
+cursor: pointer;
+height: var(--size14); 
+/* margin-left: auto; */
+position: absolute;
+right: 5%;
+}
+.icon:hover{
+    color: var(--color-white);
+}
+.alert.sm{
+ height: var(--size15);
+ font-size: var(--size10);
+}
+.alert.sm .icon{
+height: var(--size12);
+}
+.alert.md{
+    height: var(--size20);
+    font-size: var(--size12);
+}
+.alert.md .icon{
+    height: var(--size14);
+}
+.alert.lg{
+    height: var(--size25);
+    font-size: var(--size14);
+
+  
+}
+.alert.lg .icon{
+    height: var(--size16);
+    }
+.alert.xlg{
+    height: var(--size30);
+    font-size: var(--size16);
+   
+}
+.alert.xlg .icon{
+    height: var(--size18);
+    }
+.alert.danger{
+    background-color: var(--color-danger);
+}
+.alert.success{
+    background-color: var(--color-success);
+}
+.alert.warning{
+    background-color: var(--color-warning);
+}
+.alert.info{
+    background-color: var(--color-info);
+}
+.alert.primary{
+    background-color: var(--color-primary);
+}
+.alert.rounded{
+    border-radius: var(--size5);
+}
+
+.alert .link{
+    text-decoration: underline;
+    color: inherit;
+}

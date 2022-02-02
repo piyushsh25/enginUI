@@ -1,0 +1,110 @@
+@import url("../../css/main.css");
+
+/* avatar  */
+img{
+    border-radius: 50%;
+}
+
+.avatar{
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+     margin: var(--size8);
+}
+
+/* different sizes for avatars */
+.avatar.sm{
+    height: var(--size18);
+    width:  var(--size18);
+}
+
+.avatar.md{
+    height:  var(--size22);
+    width:  var(--size22);
+}
+
+.avatar.lg{
+    height:  var(--size30);
+    width:  var(--size30);
+}
+
+.avatar.xlg{
+    height: var(--size40);
+    width: var(--size40);
+}
+
+/* badges (default -green) */
+.avatar .badge{
+    width: var(--size5);
+    height: var(--size5);
+    position: absolute;
+    right: 10%;
+    top: 80%;
+    background-color: var(--color-success);
+    border-radius: 50%;
+    border: var(--size1) solid var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color:  var(--color-white);
+}
+
+.avatar.sm .badge{
+    width: var(--size6);
+    height: var(--size6);
+}
+
+.avatar.md .badge{
+    width: var(--size7);
+    height: var(--size7);
+}
+
+.avatar.lg .badge{
+    width: var(--size8);
+    height: var(--size8);
+}
+
+.avatar.xlg .badge{
+    width: var(--size8);
+    height: var(--size8);
+    top: 85%;
+}
+
+.avatar .badge.offline{
+    background-color: var(--color-warning);
+}
+
+.avatar .badge.idle{
+    background-color: var(--color-error);
+}
+/* text badge */
+.avatar .badge.text{
+    right:0%;
+    top: 1%;
+    border:0;
+}
+
+.avatar.xlg .badge.text{
+    top: 10%;
+    width: var(--size22);
+    height: var(--size12);
+}
+
+.avatar.lg .badge.text{
+    width: var(--size12);
+    height: var(--size10);
+    font-size: var(--size6);
+}
+
+.avatar.md .badge.text{
+    width: var(--size12);
+    height: var(--size10);
+    font-size: var(--size5);
+}
+
+.avatar.sm .badge.text{
+    width: var(--size9);
+    height: var(--size9); 
+    font-size: var(--size4);
+}

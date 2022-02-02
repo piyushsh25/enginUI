@@ -54,15 +54,17 @@
      --size35: 4.375rem;
 }
 
-@media only screen and (max-width:550px){
-  
-  html{
-      font-size:var(--size3);
-  }
-}
 
-@media only screen and (max-width:830px){
-   html{
-       font-size:var(--size6);
-   }
-}
+
+  @media only screen and (max-width:550px){
+    
+    html{
+        font-size:var(--size3);
+    }
+ }
+ 
+ @media only screen and (max-width:830px){
+     html{
+         font-size:var(--size6);
+     }
+ }

@@ -1,0 +1,40 @@
+@import url("../../css/main.css");
+.button{
+    display: inline-flex;
+    margin: var(--size12);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--color-success);
+    width: 11rem;
+    height: var(--size22);
+    font-size: var(--size10);
+    padding: var(--size2);
+    position: relative;
+}
+
+.button.disabled{
+    cursor:not-allowed;
+    background-color: var(--color-icon);
+}
+
+.button.outline{
+    background-color: inherit;
+    border: var(--size1) solid var(--color-success);
+}
+
+.button.link{
+    background-color: inherit;
+    text-decoration: underline;
+    color:var(--color-success) ;
+}
+.button.text .icon-text{
+    position: absolute;
+    left: 14%;
+}
+.button.icon{
+background-color: var(--color-background);
+border-radius: var(--rounded);
+width: var(--size22);
+height: var(--size22);
+}

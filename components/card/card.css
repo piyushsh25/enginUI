@@ -1,11 +1,4 @@
 @import url("../../css/main.css");
-.main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
 .card {
     margin: var(--size10);
     width: 20rem;

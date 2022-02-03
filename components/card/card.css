@@ -8,29 +8,29 @@
     box-shadow: 1px 1px 22px var(--color-black);
 }
 
-.card .upper-div img {
+.card .img-div img {
     border-radius: 5% 5% 0 0;
     width: 21rem;
     height: 13em;
 }
 
-.lower-div {
+.text-div {
     margin: 5%;
 }
 
-.card .lower-div .description {
+.card .text-div .description {
     font-size: var(--size8);
 }
 
-.card .lower-div .header-top {
+.card .text-div .header-top {
     font-weight: bolder;
 }
 
-.card .lower-div .header-bottom {
+.card .text-div .header-bottom {
     font-weight: bold;
 }
 
-.card .lower-div li {
+.card .text-div .card-icons {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
     margin-right: var(--size10);
 }
 
-.card .lower-div li:hover {
+.card .text-div .card-icons:hover {
     background-color: var(--color-white);
     border-radius: 50%;
     width: var(--size14);
@@ -46,12 +46,12 @@
     color: var(--color-danger);
 }
 
-.card .lower-div ul {
+.card .text-div ul {
     display: flex;
     margin: 5% 0 0 0;
 }
 
-.card .lower-div li.text-icon {
+.card .text-div .card-icons.text-icon {
     background-color: var(--color-warning);
     height: var(--size16);
     width: var(--size35);
@@ -67,13 +67,13 @@
     height: 22rem;
 }
 
-.text-over-card .lower-div .header-top {
+.text-over-card .text-div .header-top {
     position: absolute;
     top: 40%;
     color: var(--color-white);
 }
 
-.text-over-card .lower-div .header-bottom {
+.text-over-card .text-div .header-bottom {
     position: absolute;
     top: 47%;
     color: var(--color-white);
@@ -82,7 +82,7 @@
 
 /* dismiss button */
 
-.card .lower-div ul .dismiss {
+.card .text-div ul .dismiss {
     position: absolute;
     top: 0%;
     right: -6%;
@@ -118,14 +118,14 @@
     height: 7rem;
 }
 
-.card.text-over-card.no-desc .lower-div .header-top {
+.card.text-over-card.no-desc .text-div .header-top {
     position: absolute;
     top: var(--size25);
     left: 50%;
     color: inherit;
 }
 
-.card.text-over-card.no-desc .lower-div .header-bottom {
+.card.text-over-card.no-desc .text-div .header-bottom {
     position: absolute;
     top: var(--size35);
     left: 50%;

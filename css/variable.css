@@ -7,7 +7,7 @@
     --color-success-hover: #386C0B;
     --color-warning: #EABA6B;
     --color-warning-hover: #FF9F1C;
-    --color-error: #FF6666;
+    --color-error: rgba(255, 0, 0, 0.897);
     --color-info: rgba(35, 127, 167, 0.575);
     --color-black: #000;
     --color-danger: rgba(212, 10, 10, 0.568);

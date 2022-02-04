@@ -1,21 +1,21 @@
 @import url("../../css/main.css");
 .card {
     margin: var(--size10);
-    width: 20rem;
+    width: var( --size20R);
     height: 25rem;
-    border-radius: 5%;
+    border-radius: var(--size5P);
     position: relative;
     box-shadow: 1px 1px 22px var(--color-black);
 }
 
 .card .img-div img {
-    border-radius: 5% 5% 0 0;
+    border-radius: var(--size5P) var(--size5P) var(--size0P) var(--size0P);
     width: 21rem;
     height: 13em;
 }
 
 .text-div {
-    margin: 5%;
+    margin: var(--size5P);
 }
 
 .card .text-div .description {
@@ -38,9 +38,8 @@
     margin-right: var(--size10);
 }
 
-.card .text-div .card-icons:hover {
-    background-color: var(--color-white);
-    border-radius: 50%;
+.card .text-div .card-icons:hoverlay {
+    border-radius: var(--rounded);
     width: var(--size14);
     height: var(--size14);
     color: var(--color-danger);
@@ -48,32 +47,32 @@
 
 .card .text-div ul {
     display: flex;
-    margin: 5% 0 0 0;
+    margin: var(--size5P) 0 0 0;
 }
 
 .card .text-div .card-icons.text-icon {
     background-color: var(--color-warning);
     height: var(--size16);
     width: var(--size35);
-    border-radius: 10%;
+    border-radius: var(--size10P);
     padding: var(--size4);
 }
 
 
-/* text over picture */
+/* text overlay picture */
 
-.card.text-over-card {
-    width: 20rem;
-    height: 22rem;
+.card.text-overlay-card {
+    width: var(--size20R);
+    height: var(--size22R);
 }
 
-.text-over-card .text-div .header-top {
+.text-overlay-card .text-div .header-top {
     position: absolute;
     top: 40%;
     color: var(--color-white);
 }
 
-.text-over-card .text-div .header-bottom {
+.text-overlay-card .text-div .header-bottom {
     position: absolute;
     top: 47%;
     color: var(--color-white);
@@ -84,7 +83,7 @@
 
 .card .text-div ul .dismiss {
     position: absolute;
-    top: 0%;
+    top: var(--size0P);
     right: -6%;
     font-size: var(--size8);
     width: var(--size16);
@@ -95,39 +94,39 @@
 
 /* without footer */
 
-.card.text-over-card.no-footer {
-    width: 20rem;
-    height: 18rem;
+.card.text-overlay-card.no-footer {
+    width: var(--size20R);
+    height: var(--size20R);
 }
 
-.card.text-over-card.no-footer img {
-    width: 20rem;
-    height: 12rem;
+.card.text-overlay-card.no-footer img {
+    width: var(--size20R);
+    height: var(--size12R);
 }
 
 
 /* without description */
 
-.card.text-over-card.no-desc {
-    width: 20rem;
-    height: 12rem;
+.card.text-overlay-card.no-desc {
+    width: var(--size20R);
+    height: var(--size12R);
 }
 
-.card.text-over-card.no-desc img {
+.card.text-overlay-card.no-desc img {
     width: 8.5rem;
     height: 7rem;
 }
 
-.card.text-over-card.no-desc .text-div .header-top {
+.card.text-overlay-card.no-desc .text-div .header-top {
     position: absolute;
     top: var(--size25);
-    left: 50%;
+    left: var(--rounded);
     color: inherit;
 }
 
-.card.text-over-card.no-desc .text-div .header-bottom {
+.card.text-overlay-card.no-desc .text-div .header-bottom {
     position: absolute;
     top: var(--size35);
-    left: 50%;
+    left: var(--rounded);
     color: inherit;
 }

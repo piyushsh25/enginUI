@@ -38,7 +38,7 @@
     margin-right: var(--size10);
 }
 
-.card .text-div .card-icons:hoverlay {
+.card .text-div .card-icons:hover {
     border-radius: var(--rounded);
     width: var(--size14);
     height: var(--size14);

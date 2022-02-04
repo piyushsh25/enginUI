@@ -1,0 +1,16 @@
+@import url("../../css/main.css");
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.img-rounded {
+    height: 10rem;
+    width: 10rem;
+    border-radius: var(--rounded);
+}
+
+.img-square {
+    height: 10rem;
+    width: 10rem;
+}

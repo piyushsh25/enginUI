@@ -20,6 +20,14 @@ label {
     outline: none;
 }
 
+input:focus {
+    background-color: var(--white);
+}
+
+.submit:focus {
+    background-color: var(--color-primary-hover);
+}
+
 .error-message {
     font-size: var(--size8);
     color: var(--color-error);

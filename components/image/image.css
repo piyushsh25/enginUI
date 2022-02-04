@@ -2,15 +2,16 @@
 .img-responsive {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
 
 .img-rounded {
-    height: 10rem;
-    width: 10rem;
+    height: var(--size10R);
+    width: var(--size10R);
     border-radius: var(--rounded);
 }
 
 .img-square {
-    height: 10rem;
-    width: 10rem;
+    height: var(--size10R);
+    width: var(--size10R);
 }

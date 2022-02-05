@@ -1,0 +1,74 @@
+@import url(../../css/main.css);
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: var(--size12);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+label {
+    margin: var(--sizee3) var(--size0) var(--size0) var(--size0);
+    font-size: var(--size9);
+}
+
+.input,
+.submit {
+    padding: var(--size5);
+    margin: var(--size8);
+    border: var(--size1) solid var(--color-primary);
+    outline: none;
+}
+
+input:focus {
+    background-color: var(--white);
+}
+
+.submit:focus {
+    background-color: var(--color-primary-hover);
+}
+
+.error-message {
+    font-size: var(--size8);
+    color: var(--color-error);
+}
+
+.submit {
+    background-color: var(--color-primary-hover);
+    border: var(--size0);
+    cursor: pointer;
+}
+
+.error-input {
+    background-color: var(--color-danger);
+    border: var(--size1) solid var(--color-error);
+}
+
+.success-input {
+    background-color: var(--color-background);
+    border: var(--size1) solid var(--color-success-hover);
+}
+
+.success-message {
+    font-size: var(--size8);
+    color: var(--color-success);
+}
+
+.input-icon {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.input-icon .icon {
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 37%;
+    height: var(--size8);
+    width: var(--size13);
+}
+
+.submit {
+    width: 20%;
+}

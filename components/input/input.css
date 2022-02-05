@@ -68,3 +68,7 @@ input:focus {
     height: var(--size8);
     width: var(--size13);
 }
+
+.submit {
+    width: 20%;
+}

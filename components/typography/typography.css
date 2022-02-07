@@ -1,0 +1,76 @@
+@import url("../../css/main.css");
+
+/* h1 tags */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    padding: var(--size0);
+    font-weight: normal;
+    margin: var(--size0);
+}
+
+.h1 {
+    /* 5rem */
+    font-size: var(--size40);
+}
+
+.h2 {
+    /* 4rem */
+    font-size: var(--size32);
+}
+
+.h3 {
+    /* 3rem */
+    font-size: var(--size24);
+}
+
+.h4 {
+    /* 2rem */
+    font-size: var(--size16);
+}
+
+.h5 {
+    /* 1rem */
+    font-size: var(--size8);
+}
+
+.h6 {
+    /* 0.5rem */
+    font-size: var(--size4);
+}
+
+
+/* p tags */
+
+.p-sm {
+    /* 2rem */
+    font-size: var(--size16);
+}
+
+.p-md {
+    /* 4rem */
+    font-size: var(--size32);
+}
+
+.p-lg {
+    /* 5rem */
+    font-size: var(--size40);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}

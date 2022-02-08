@@ -24,15 +24,14 @@
 .simple-modal-action {
     display: flex;
     width: var(--size10R);
-    margin-left: auto;
-    margin: var(--size10P) var(--size23) 0 auto;
+    margin: var(--size10P) var(--size8) 0 auto;
     font-weight: bolder;
-    font-size: var(--size10);
+    font-size: var(--size9);
     justify-content: space-around;
 }
 
 .simple-modal-action-action-1 {
-    margin-right: var(--size8);
+    margin-right: var(--size12);
 }
 
 .simple-modal-action-action-1:hover {

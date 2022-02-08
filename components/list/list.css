@@ -1,0 +1,44 @@
+@import url("../../css/main.css");
+.list-container {
+    font-size: var(--size13);
+    margin-top: var(--size16);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+ul {
+    margin: var(--size20);
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.list-style-circle {
+    list-style-type: circle;
+}
+
+.list-style-square {
+    list-style-type: square;
+}
+
+.list-style.small-alpha {
+    list-style-type: lower-alpha;
+}
+
+.list-style.capital-alpha {
+    list-style-type: upper-alpha;
+}
+
+.list-style.small-roman {
+    list-style-type: lower-roman;
+}
+
+.list-style.capital-roman {
+    list-style-type: upper-roman;
+}
+
+li {
+    margin-bottom: var(--size3);
+}

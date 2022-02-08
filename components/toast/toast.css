@@ -23,21 +23,24 @@
 
 .sm {
     width: var(--size40);
-    height: var(--size19);
+    height: var(--size24);
     font-size: var(--size9);
-    padding: 0 5%;
+    padding: var(--size0) var(--size5P);
+    border-radius: var(--size5);
 }
 
 .md {
     width: var(--size10R);
-    height: var(--size25);
+    height: var(--size28);
     font-size: var(--size10);
-    padding: 0 5%;
+    padding: 0 var(--size5P);
+    border-radius: var(--size10);
 }
 
 .lg {
     width: var(--size20R);
-    height: var(--size28);
+    height: var(--size32);
     font-size: var(--size10);
-    padding: 0 5%;
+    padding: 0 var(--size5P);
+    border-radius: var(--size14);
 }

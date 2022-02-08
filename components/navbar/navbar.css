@@ -1,0 +1,64 @@
+@import url("../../css/main.css");
+.header {
+    font-size: var(--size12);
+    display: flex;
+    margin-left: var(--size15);
+}
+
+.title-logo {
+    margin-right: var(--size5);
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: var(--size12);
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.links .items {
+    margin-right: var(--size30);
+    height: var(--size13);
+    width: var(--size13);
+    font-size: var(--size13);
+}
+
+.input {
+    margin-left: var(--size10R);
+    padding: var(--size6);
+    border: var(--size1) solid blueviolet;
+    border-radius: var(--size5);
+}
+
+@media only screen and (max-width:900px) {
+    .input {
+        width: 70%;
+        margin-left: var(--size12);
+    }
+    .header {
+        margin-right: 1%;
+    }
+    .nav-icons .links {
+        margin: var(--size0) 0 0 var(--size13);
+    }
+}
+
+@media only screen and (max-width:638px) {
+    .input {
+        width: 70%;
+    }
+    .links {
+        margin: var(--size10) 0 0 var(--size15);
+    }
+    .nav-icons .links {
+        margin: var(--size10) 0 0 var(--size13);
+    }
+}

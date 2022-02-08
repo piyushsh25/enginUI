@@ -7,7 +7,7 @@
 }
 
 .success {
-    background-color: var(--color-success);
+    background-color: rgba(59, 207, 59, 0.466);
     border: var(--size1) solid var(--color-success-hover);
 }
 

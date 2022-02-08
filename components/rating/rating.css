@@ -1,0 +1,28 @@
+@import url("../../css/main.css");
+.icon {
+    display: flex;
+}
+
+.rating-container .icon {
+    font-size: var(--size25);
+    color: var(--color-warning-hover);
+    padding: var(--size25);
+}
+
+.rating-container .rating {
+    display: none;
+}
+
+.rating-container input+label {
+    margin: var(--size10);
+    cursor: pointer;
+}
+
+.rating-container .rating:checked+label~label {
+    color: var(--color-icon);
+}
+
+.rating-container label:active {
+    transform: scale(0.5);
+    transition: 0.1s ease-in;
+}

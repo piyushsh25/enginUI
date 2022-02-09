@@ -21,7 +21,8 @@
     
     .main-heading {
         padding: var(--size11) 0 0 var(--size11);
-        font-size: var(--size28);
+        font-size: var(--size30);
+        font-weight: bolder;
         color: var(--color-primary);
     }
     
@@ -116,7 +117,8 @@
     }
     
     .footer-img {
-        margin: 0% 6% var(--size10) 6%;
+        margin: 0% 1% 0 1%;
+        width: 30px;
     }
     
     .footer-img:hover {
@@ -126,7 +128,7 @@
     .footer-heading {
         display: flex;
         justify-content: center;
-        font-size: var(--size21);
+        font-size: var(--size12);
     }
     
     @media only screen and (max-width:550px) {

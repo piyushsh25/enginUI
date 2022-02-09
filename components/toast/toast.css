@@ -1,0 +1,46 @@
+@import url("../../css/main.css");
+.toast {
+    margin: var(--size40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success {
+    background-color: rgba(59, 207, 59, 0.466);
+    border: var(--size1) solid var(--color-success-hover);
+}
+
+.pending {
+    background-color: var(--color-warning);
+    border: var(--size1) solid var(--color-warning-hover);
+}
+
+.error {
+    background-color: var(--color-danger);
+    border: var(--size1) solid var(--color-error);
+}
+
+.sm {
+    width: var(--size40);
+    height: var(--size24);
+    font-size: var(--size9);
+    padding: var(--size0) var(--size5P);
+    border-radius: var(--size5);
+}
+
+.md {
+    width: var(--size10R);
+    height: var(--size28);
+    font-size: var(--size10);
+    padding: 0 var(--size5P);
+    border-radius: var(--size10);
+}
+
+.lg {
+    width: var(--size20R);
+    height: var(--size32);
+    font-size: var(--size10);
+    padding: 0 var(--size5P);
+    border-radius: var(--size14);
+}

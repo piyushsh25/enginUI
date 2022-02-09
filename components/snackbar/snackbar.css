@@ -30,7 +30,7 @@
 
 .simple-bar-retry {
     margin-left: var(--size25);
-    color: indigo;
+    color: var(--color-primary-hover);
     cursor: pointer;
 }
 

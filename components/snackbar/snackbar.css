@@ -1,0 +1,93 @@
+@import url("../../css/main.css");
+.simple-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 34rem;
+    height: var(--size20);
+    background-color: var(--color-white);
+    box-shadow: var(--size1) var(--size1) 2rem var(--color-black);
+    font-size: var(--size9);
+    border-radius: var(--size4);
+    margin: 20px;
+}
+
+.img-cross {
+    margin-left: auto;
+    margin-right: var(--size6);
+    font-size: var(--size10);
+    cursor: pointer;
+}
+
+.img-cross:hover {
+    color: var(--color-icon);
+    text-align: center;
+}
+
+.simple-bar-content {
+    margin-left: var(--size10);
+}
+
+.simple-bar-retry {
+    margin-left: var(--size25);
+    color: var(--color-primary-hover);
+    cursor: pointer;
+}
+
+.simple-bar-retry:hover {
+    color: var(--color-icon);
+    cursor: pointer;
+}
+
+
+/* stacked */
+
+.stacked-container {
+    width: 34rem;
+    height: 6rem;
+    font-size: var(--size10);
+    border-radius: var(--size6);
+    position: relative;
+    box-shadow: var(--size1) var(--size1) 2rem black;
+    margin: 20px;
+}
+
+.stacked-message {
+    display: flex;
+    padding-left: var(--size13);
+    padding-top: var(--size11);
+}
+
+.stacked-action {
+    display: flex;
+    position: absolute;
+    right: var(--size10);
+    font-size: var(--size8);
+}
+
+.stacked-action {
+    margin-left: var(--size10);
+    margin-top: var(--size5);
+    font-size: var(--size10);
+    color: var(--color-primary-hover);
+}
+
+.stacked-action-retry-message {
+    color: var(--color-primary-hover);
+    margin-right: var(--size30);
+}
+
+.stacked-action-cross-message {
+    font-size: var(--size20);
+    margin-top: -10%;
+}
+
+.stacked-action-cross-message:hover {
+    cursor: pointer;
+    color: var(--color-error);
+}
+
+.stacked-action-retry-message:hover {
+    color: var(--color-success);
+    cursor: pointer;
+}

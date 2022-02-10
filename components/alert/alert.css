@@ -1,11 +1,9 @@
 @import url("../../css/main.css");
-
-
-.alert{
+.alert {
     margin: var(--size5);
-    display: flex; 
+    display: flex;
     align-items: center;
-    padding:var(--size5) var(--size20);
+    padding: var(--size5) var(--size20);
     width: 100%;
     background-color: var(--color-background);
     font-size: var(--size10);
@@ -13,78 +11,78 @@
     position: relative;
 }
 
-.icon{
-cursor: pointer;
-height: var(--size14); 
-position: absolute;
-right: 5%;
+.alert .icon {
+    cursor: pointer;
+    height: var(--size14);
+    position: absolute;
+    right: 5%;
 }
 
-.icon:hover{
+.alert .icon:hover {
     color: var(--color-white);
 }
 
-.alert.sm{
- height: var(--size15);
- font-size: var(--size10);
+.alert.sm {
+    height: var(--size15);
+    font-size: var(--size10);
 }
 
-.alert.sm .icon{
-height: var(--size12);
+.alert.sm .icon {
+    height: var(--size12);
 }
 
-.alert.md{
+.alert.md {
     height: var(--size20);
     font-size: var(--size12);
 }
 
-.alert.md .icon{
+.alert.md .icon {
     height: var(--size14);
 }
 
-.alert.lg{
+.alert.lg {
     height: var(--size25);
     font-size: var(--size14);
 }
 
-.alert.lg .icon{
+.alert.lg .icon {
     height: var(--size16);
 }
 
-.alert.xlg{
+.alert.xlg {
     height: var(--size30);
     font-size: var(--size16);
 }
 
-.alert.xlg .icon{
+.alert.xlg .icon {
     height: var(--size18);
 }
 
-.alert.danger{
+.alert.danger {
     background-color: var(--color-danger);
 }
 
-.alert.success{
+.alert.success {
     background-color: var(--color-success);
 }
 
-.alert.warning{
+.alert.warning {
     background-color: var(--color-warning);
 }
 
-.alert.info{
+.alert.info {
     background-color: var(--color-info);
 }
 
-.alert.primary{
+.alert.primary {
     background-color: var(--color-primary);
 }
 
-.alert.rounded{
+.alert.rounded {
     border-radius: var(--size5);
 }
 
-.alert .link{
+.alert .link {
     text-decoration: underline;
     color: inherit;
 }

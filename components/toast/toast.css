@@ -21,7 +21,7 @@
     border: var(--size1) solid var(--color-error);
 }
 
-.sm {
+.toast.sm {
     width: var(--size40);
     height: var(--size24);
     font-size: var(--size9);
@@ -29,7 +29,7 @@
     border-radius: var(--size5);
 }
 
-.md {
+.toast.md {
     width: var(--size10R);
     height: var(--size28);
     font-size: var(--size10);
@@ -37,7 +37,7 @@
     border-radius: var(--size10);
 }
 
-.lg {
+.toast.lg {
     width: var(--size20R);
     height: var(--size32);
     font-size: var(--size10);

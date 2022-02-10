@@ -10,37 +10,45 @@
     border-radius: 50%;
     font-weight: bold;
     font-size: var(--size10);
-  }
- .avatar.sm{
-     width: var(--size20);
-     height: var(--size20);
-    
- } 
- .avatar.md{
-    width:  var(--size25);
-    height: var(--size25);    
-   
- }
- .avatar.lg{
-    width:  var(--size30);
-    height: var(--size30);   
-    font-size: var(--size15);
- } 
+}
 
- .avatar.xlg{
+.avatar.sm {
+    width: var(--size20);
+    height: var(--size20);
+}
+
+.avatar.md {
+    width: var(--size25);
+    height: var(--size25);
+}
+
+.avatar.lg {
+    width: var(--size30);
+    height: var(--size30);
+    font-size: var(--size15);
+}
+
+.avatar.xlg {
     width: var(--size35);
-    height:var(--size35);
-    font-size: var(--size20);  
- }
- /*  squared avatars  */
-.avatar.square{
+    height: var(--size35);
+    font-size: var(--size20);
+}
+
+
+/*  squared avatars  */
+
+.avatar.square {
     border-radius: var(--size0);
 }
+
+
 /* rounded corners */
-.avatar.curved{
+
+.avatar.curved {
     border-radius: var(--size8);
 }
-.avatar.icon{
+
+.avatar.icons {
     background-color: var(--color-icon);
     color: var(--color-black);
 }

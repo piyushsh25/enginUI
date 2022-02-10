@@ -59,3 +59,9 @@
     color: var(--color-success);
     font-size: var(--size11);
 }
+
+.header {
+    font-size: var(--size11);
+    margin-top: 2%;
+    border-top: 10px;
+}

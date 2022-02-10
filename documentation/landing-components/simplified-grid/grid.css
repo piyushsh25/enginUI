@@ -2,6 +2,7 @@
 @import url("../../../landing.css");
 * {
     background-color: var(--color-lightblue);
+    ;
 }
 
 .get-started-body {
@@ -29,7 +30,7 @@
     padding: var(--sie5) var(--size9);
     font-size: var(--size10);
     height: 34rem;
-    width: 12rem;
+    width: 14rem;
     overflow: auto;
 }
 
@@ -56,5 +57,5 @@
 
 .select {
     color: var(--color-success);
-    font-size: var(--size15);
+    font-size: var(--size12);
 }

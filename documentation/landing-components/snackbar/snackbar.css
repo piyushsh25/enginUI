@@ -1,5 +1,5 @@
 @import url("../css/main.css");
-@import url("../../../landing.css");
+@import url("../../get-started/getStarted.css");
 * {
     background-color: var(--color-lightblue);
 }
@@ -8,15 +8,15 @@
     display: -ms-grid;
     display: grid;
     grid-template-columns: 1fr 10fr;
-    gap: var(--size10);
-    margin-top: var(--size10);
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .component-links {
     text-decoration: none;
     color: black;
     border-radius: 10%;
-    padding: var(--size7) var(--size5);
+    padding: 14px 10px;
 }
 
 .component-links:hover {
@@ -24,37 +24,38 @@
     color: var(--color-icon);
 }
 
-.component-list {
-    margin: 0 0 0 var(--size5);
-    padding: var(--sie5) var(--size9);
-    font-size: var(--size10);
-    height: 34rem;
-    width: 12rem;
+col.component-list {
+    padding: 10px 10px;
+    font-size: 16px;
+    height: 400px;
+    width: 190px;
     overflow: auto;
 }
 
+or: var(--color-success);
 .component-items {
-    margin-bottom: var(--size12);
+    margin-bottom: 20px;
 }
 
 .get-started-content {
-    margin: 3% 0 0 5%;
+    margin: 0 50px 150px 0;
 }
 
 .get-started-header {
-    font-size: var(--size12);
-    margin-bottom: 5%;
+    font-size: 20px;
     font-weight: bolder;
+    margin: 5% 0;
 }
 
 .get-started-link {
-    width: 50rem;
-    height: 18rem;
-    border: 0;
+    width: 600px;
+    height: 250px;
     overflow: hidden;
+    border: 0;
 }
 
 .select {
     color: var(--color-success);
-    font-size: var(--size15);
+    color: var(--color-success);
+    font-size: 20px;
 }

@@ -1,5 +1,5 @@
 @import url("../css/main.css");
-@import url("../../../landing.css");
+@import url("../../../index.css");
 * {
     background-color: var(--color-lightblue);
     ;

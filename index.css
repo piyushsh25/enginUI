@@ -65,13 +65,13 @@
     .body-heading {
         font-size: var(--size17);
         font-weight: bold;
-        width: 30%;
+        width: 50%;
     }
     
     .body-description {
         margin-top: var(--size5);
         font-size: var(--size17);
-        width: 50%;
+        width: 63%;
     }
     
     .body-button {

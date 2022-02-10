@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr;
     gap: var(--size10);
-    margin-top: var(--size10);
+    margin: var(--size10) 0 0;
 }
 
 .component-links {
@@ -39,12 +39,12 @@
 }
 
 .get-started-content {
-    margin: 3% 0 0 5%;
+    margin: 3% 30% 0 5%;
 }
 
 .get-started-header {
     font-size: var(--size12);
-    margin-bottom: 5%;
+    margin: 5% 2%;
     font-weight: bolder;
 }
 

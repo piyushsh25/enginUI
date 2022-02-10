@@ -5,7 +5,7 @@
     align-items: center;
     padding: var(--size5) var(--size20);
     width: 100%;
-    background-color: var(--color-background);
+    background-color: var(--color-primary);
     font-size: var(--size10);
     white-space: nowrap;
     position: relative;
@@ -16,6 +16,7 @@
     height: var(--size14);
     position: absolute;
     right: 5%;
+    background-color: inherit;
 }
 
 .alert .icon:hover {
@@ -79,10 +80,11 @@
 }
 
 .alert.rounded {
-    border-radius: var(--size5);
+    border-radius: var(--size5P);
 }
 
 .alert .link {
     text-decoration: underline;
+    background-color: inherit;
     color: inherit;
 }

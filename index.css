@@ -59,19 +59,19 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-top: 2%;
+        margin-top: 5%;
     }
     
     .body-heading {
         font-size: var(--size17);
         font-weight: bold;
-        margin: 2% 5% 0 5%;
+        width: 30%;
     }
     
     .body-description {
         margin-top: var(--size5);
         font-size: var(--size17);
-        margin: 1% 30%;
+        width: 50%;
     }
     
     .body-button {
@@ -99,13 +99,12 @@
     
     .nav-items.one {
         color: var(--color-white);
-        border: 3px solid var(--color-primary-hover);
-        white-space: nowrap;
+        border: var(--size1) solid var(--color-primary-hover);
     }
     
     .nav-items.one:hover {
         color: var(--color-black);
-        border: 5px var(--color-primary-hover);
+        border: var(--size1) var(--color-primary-hover);
     }
     
     .landing-footer {

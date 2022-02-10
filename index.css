@@ -71,7 +71,7 @@
     .body-description {
         margin-top: var(--size5);
         font-size: var(--size17);
-        margin: 2% 25%;
+        margin: 1% 30%;
     }
     
     .body-button {
@@ -120,7 +120,7 @@
     
     .footer-img {
         margin: 0% 1% 0 1%;
-        width: 30px;
+        width: var(--size20);
     }
     
     .footer-img:hover {
@@ -132,14 +132,3 @@
         justify-content: center;
         font-size: var(--size12);
     }
-    /* @media only screen and (max-width:550px) {
-        .landing-body {
-            margin: 7% 25% 0;
-        }
-    }
-    
-    @media only screen and (max-width:830px) {
-        .landing-body {
-            margin: 11% 25%;
-        }
-    } */

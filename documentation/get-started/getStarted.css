@@ -1,0 +1,62 @@
+@import url("../css/main.css");
+@import url("../../landing.css");
+* {
+    background-color: lightblue;
+}
+
+.get-started-body {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.component-links {
+    text-decoration: none;
+    color: black;
+    border-radius: 10%;
+    padding: 14px 10px;
+}
+
+.component-links:hover {
+    text-decoration: none;
+    color: green;
+}
+
+.component-list {
+    padding: 10px 10px;
+    font-size: 16px;
+    height: 500px;
+    width: 190px;
+    overflow: auto;
+}
+
+.component-items {
+    margin-bottom: 20px;
+}
+
+.get-started-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px 150px 0;
+}
+
+.get-started-header {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5% 0;
+}
+
+.get-started-link {
+    width: 600px;
+    height: 250px;
+    overflow: hidden;
+    border: 0;
+}
+
+.select {
+    color: lemonchiffon;
+    font-size: 20px;
+}

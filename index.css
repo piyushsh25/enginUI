@@ -71,7 +71,7 @@
     .body-description {
         margin-top: var(--size5);
         font-size: var(--size17);
-        margin: 0 25% 0;
+        margin: 2% 25%;
     }
     
     .body-button {

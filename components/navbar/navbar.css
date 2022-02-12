@@ -1,5 +1,5 @@
 @import url("../../css/main.css");
-.header {
+.nav-icons .header {
     font-size: var(--size12);
     display: flex;
     margin-left: var(--size15);
@@ -19,7 +19,7 @@
     flex-wrap: wrap;
 }
 
-.links {
+.nav-icons .links {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -32,7 +32,7 @@
     font-size: var(--size13);
 }
 
-.input {
+.nav-icons .input {
     margin-left: var(--size10R);
     padding: var(--size6);
     border: var(--size1) solid blueviolet;
@@ -40,11 +40,11 @@
 }
 
 @media only screen and (max-width:900px) {
-    .input {
+    .nav-icons .input {
         width: 70%;
         margin-left: var(--size12);
     }
-    .header {
+    .nav-icons .header {
         margin-right: 1%;
     }
     .nav-icons .links {

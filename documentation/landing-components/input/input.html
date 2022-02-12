@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../components/style.css">
     <link rel="stylesheet" href="./input.css">
     <title>enginUI | input</title>
 </head>
@@ -74,14 +75,69 @@
             </li>
         </ul>
         <div class="get-started-content">
-            <div class="get-started-header">To start using enginUI please attach the link in your HTML document.</div>
+            <div class="get-started-header">simple Input component with submit button.</div>
             <div>
-                <iframe class="get-started-link" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522getStarted.css%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-      </iframe>
+                <div class="form">
+                    <label for="name"> Name*:</label>
+                    <input class="input" type="text" id="name" name="name" required>
+                    <input class="submit" type="submit" value="Submit" id="submit">
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%250A%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253E%2520Name*%253A%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522text%2522%2520id%253D%2522name%2522%2520name%253D%2522name%2522%2520required%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522submit%2522%2520type%253D%2522submit%2522%2520value%253D%2522Submit%2522%2520id%253D%2522submit%2522%253E%250A%253C%252Fdiv%253E"
+                        style="width: 715px; height: 279px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+            </div>
+            <div class="get-started-header">Success input with button</div>
+            <div>
+                <div class="form">
+                    <label for="email"> Email*:</label>
+                    <input class="input success-input" type="email" id="email" name="emil" required>
+                    <div class="success-message">Success ✔</div>
+                    <input class="submit" type="submit" value="Submit" id="submit">
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522email%2522%253E%2520Email*%253A%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input%2520success-input%2522%2520type%253D%2522email%2522%2520id%253D%2522email%2522%2520name%253D%2522emil%2522%2520required%253E%250A%2520%2520%253Cdiv%2520class%253D%2522success-message%2522%253ESuccess%2520%25E2%259C%2594%253C%252Fdiv%253E%250A%2520%2520%253Cinput%2520class%253D%2522submit%2522%2520type%253D%2522submit%2522%2520value%253D%2522Submit%2522%2520id%253D%2522submit%2522%253E%250A%253C%252Fdiv%253E"
+                        style="width: 842px; height: 298px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+                </div>
+            </div>
+
+
+            <div class="get-started-header">Error password input</div>
+            <div>
+                <div class="form">
+                    <label for="password1">Password*</label>
+                    <input class="input error-input" type="password1" id="password1" name="password2">
+                    <div class="error-message">Error Password ✘</div>
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password1%2522%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520error-input%2522%2520type%253D%2522password1%2522%2520id%253D%2522password1%2522%2520name%253D%2522password2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EError%2520Password%2520%25E2%259C%2598%253C%252Fdiv%253E%250A"
+                        style="width: 909px; height: 261px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+
+
+            <div class="get-started-header">Input with icons.</div>
+            <div>
+                <div class="form">
+                    <div class="input-icon">
+                        <label for="search">Search</label>
+                        <input class="input" type="search" id="search" name="search">
+                        <div class="icon"><img src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-search-ui-dreamstale-lineal-dreamstale-2.png" alt="image" /></div>
+                        <div class="error-message">Error Search ✘</div>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-icon%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522search%2522%253ESearch%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520class%253D%2522input%2522%2520type%253D%2522search%2522%2520id%253D%2522search%2522%2520name%253D%2522search%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522icon%2522%253E%253Cimg%2520src%253D%2522https%253A%252F%252Fimg.icons8.com%252Fexternal-dreamstale-lineal-dreamstale%252F32%252F000000%252Fexternal-search-ui-dreamstale-lineal-dreamstale-2.png%2522%2520alt%253D%2522image%2522%2520%252F%253E%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522error-message%2522%253EError%2520Search%2520%25E2%259C%2598%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 553px; height: 428px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
             </div>
         </div>
-    </div>
+
 
 </body>
 

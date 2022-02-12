@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/050b0d42f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../../components/style.css">
     <link rel="stylesheet" href="./rating.css">
     <title>enginUI | rating</title>
 </head>
@@ -74,11 +76,29 @@
             </li>
         </ul>
         <div class="get-started-content">
-            <div class="get-started-header">To start using enginUI please attach the link in your HTML document.</div>
+            <div class="get-started-header">Rating component.</div>
             <div>
-                <iframe class="get-started-link" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522getStarted.css%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-      </iframe>
+                <div>
+                    <div class="rating-container">
+                        <div class="icon icon-rating">
+                            <input class="rating" type="radio" name="rating1" id="rating1">
+                            <label class="rating-label" for="rating1"><i class="fas fa-star"></i></label>
+                            <input class="rating" type="radio" name="rating1" id="rating2">
+                            <label class="rating-label" for="rating2"><i class="fas fa-star"></i></label>
+                            <input class="rating" type="radio" name="rating1" id="rating3">
+                            <label class="rating-label" for="rating3"><i class="fas fa-star"></i></label>
+                            <input class="rating" type="radio" name="rating1" id="rating4">
+                            <label class="rating-label" for="rating4"><i class="fas fa-star"></i></label>
+                            <input class="rating" type="radio" name="rating1" id="rating5">
+                            <label class="rating-label" for="rating5"><i class="fas fa-star"></i></label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=822&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522icon%2520icon-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522rating-label%2522%2520for%253D%2522rating1%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522rating-label%2522%2520for%253D%2522rating2%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522rating-label%2522%2520for%253D%2522rating3%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522rating-label%2522%2520for%253D%2522rating4%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522rating%2522%2520type%253D%2522radio%2522%2520name%253D%2522rating1%2522%2520id%253D%2522rating5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522rating-label%2522%2520for%253D%2522rating5%2522%253E%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 894px; height: 540px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
             </div>
         </div>
     </div>

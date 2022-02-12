@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../components/style.css">
     <link rel="stylesheet" href="./snackbar.css">
     <title>enginUI | snackbar</title>
 </head>
@@ -74,11 +75,40 @@
             </li>
         </ul>
         <div class="get-started-content">
-            <div class="get-started-header">To start using enginUI please attach the link in your HTML document.</div>
+            <div class="get-started-header">Simple snackbar.</div>
             <div>
-                <iframe class="get-started-link" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522getStarted.css%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-      </iframe>
+                <div class="simple-bar">
+                    <p class="simple-bar-content">Can't send this photo retry in 5 seconds, Maybe</p>
+                    <p class="simple-bar-retry">Retry</p>
+                    <p class="img-cross">✕</p>
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=894&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simple-bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522simple-bar-content%2522%253ECan%27t%2520send%2520this%2520photo%2520retry%2520in%25205%2520seconds%252CMaybe%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522simple-bar-retry%2522%253ERetry%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522img-cross%2522%253E%25E2%259C%2595%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                        style="width: 894px; height: 298px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+                </div>
+
+            </div>
+            <div class="get-started-header">
+                Stacked Snackbar
+            </div>
+            <div>
+                <div>
+                    <div class="stacked-container">
+                        <div class="stacked-message">
+                            Can't send this photo, retry in 5 seconds, Maybe ?
+                        </div>
+                        <div class="stacked-action">
+                            <p class="stacked-action-retry-message">Retry</p>
+                            <p class="stacked-action-cross-message">×</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=894&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stacked-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-message%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Can%27t%2520send%2520this%2520photo%252C%2520retry%2520in%25205%2520seconds%252C%2520Maybe%2520%253F%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522stacked-action%2522%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522stacked-action-retry-message%2522%253ERetry%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522stacked-action-cross-message%2522%253E%25C3%2597%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 894px; height: 354px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
     align-items: center;
     width: 34rem;
     height: var(--size20);
-    background-color: var(--color-white);
+    background-color: inherit;
     box-shadow: var(--size1) var(--size1) 2rem var(--color-black);
     font-size: var(--size9);
     border-radius: var(--size4);
@@ -17,6 +17,7 @@
     margin-right: var(--size6);
     font-size: var(--size10);
     cursor: pointer;
+    background-color: inherit;
 }
 
 .img-cross:hover {
@@ -26,12 +27,14 @@
 
 .simple-bar-content {
     margin-left: var(--size10);
+    background-color: inherit;
 }
 
 .simple-bar-retry {
     margin-left: var(--size25);
     color: var(--color-primary-hover);
     cursor: pointer;
+    background-color: inherit;
 }
 
 .simple-bar-retry:hover {

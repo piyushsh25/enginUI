@@ -2,7 +2,7 @@
 
 /* avatar  */
 
-img {
+.avatar-badge img {
     border-radius: var(--rounded);
 }
 

@@ -80,7 +80,7 @@
 }
 
 .alert.rounded {
-    border-radius: var(--size5P);
+    border-radius: var(--size10);
 }
 
 .alert .link {

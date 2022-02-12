@@ -76,12 +76,16 @@ img {
     top: 85%;
 }
 
+.avatar-badge .badge.busy {
+    background-color: var(--color-error);
+}
+
 .avatar-badge .badge.offline {
-    background-color: var(--color-warning);
+    background-color: var(--color-icon);
 }
 
 .avatar-badge .badge.idle {
-    background-color: var(--color-error);
+    background-color: var(--color-warning);
 }
 
 

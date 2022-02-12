@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../components/style.css">
     <link rel="stylesheet" href="./badge.css">
     <title>enginUI | badge</title>
 </head>
@@ -74,11 +75,48 @@
             </li>
         </ul>
         <div class="get-started-content">
-            <div class="get-started-header">To start using enginUI please attach the link in your HTML document.</div>
+            <div class="get-started-header">Use sm,md,lg,xlg respectively for the size. The default color for the badge is green</div>
             <div>
-                <iframe class="get-started-link" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522getStarted.css%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-      </iframe>
+                <div class="avatar-badge sm"><img src="./image.png" alt="dcimage">
+                    <div class="badge"></div>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522avatar-badge%2520sm%2522%253E%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%2520%250A%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253C%252Fdiv%253E%250A%250A%2520%253C%252Fdiv%253E%250A"
+                    style="width: 571px; height: 298px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="get-started-header">For badge color you can use offline(gray),idle(yellow),busy(red)</div>
+            <div>
+                <div class="avatar-badge sm"><img src="./image.png" alt="idmage">
+                    <div class="badge"></div>
+                </div>
+                <div class="avatar-badge md"><img src="./image.png" alt="imagdde">
+                    <div class="badge offline"></div>
+                </div>
+                <div class="avatar-badge lg"><img src="./image.png" alt="idmage">
+                    <div class="badge idle"></div>
+                </div>
+                <div class="avatar-badge xlg"><img src="./image.png" alt="imagdde">
+                    <div class="badge busy"></div>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520sm%2522%253E%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520md%2522%253E%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520lg%2522%253E%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520idle%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520xlg%2522%253E%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520busy%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 650px; height: 409px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
+            <div class="get-started-header">For text badges. The inner-div has class badge text. And everything else is same as color badges</div>
+            <div>
+                <div class="avatar-badge lg"><img src="https://img.icons8.com/fluency/50/000000/email-open.png" alt="wodcjjde" />
+                    <div class="badge text">99+</div>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge%2520md%2522%253E%253Cimg%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520text%2522%253E99%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style="width: 606px; height: 242px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
             </div>
         </div>
     </div>

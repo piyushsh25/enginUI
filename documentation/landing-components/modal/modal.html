@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../components/style.css">
     <link rel="stylesheet" href="./modal.css">
     <title>enginUI | modal</title>
 </head>
@@ -74,12 +75,109 @@
             </li>
         </ul>
         <div class="get-started-content">
-            <div class="get-started-header">To start using enginUI please attach the link in your HTML document.</div>
+            <div class="get-started-header">Simple modal</div>
             <div>
-                <iframe class="get-started-link" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522getStarted.css%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-      </iframe>
+                <div>
+                    <div class="simple-modal">
+                        <div class="simple-modal-header">
+                            Dialog body text
+                        </div>
+                        <div class="simple-modal-action">
+                            <div class="simple-modal-action-action-1">
+                                Action-1
+                            </div>
+                            <div class="simple-modal-action-action-2">
+                                Action-2
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522simple-modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Dialog%2520body%2520text%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-action%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-1%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-action-action-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-2%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 530px; height: 428px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </div>
             </div>
+
+
+            <div class="get-started-header">column modal</div>
+            <div>
+                <div>
+                    <div class="column-modal">
+                        <div class="column-modal-header">
+                            Dialog Header
+                        </div>
+                        <div class="column-modal-action">
+                            <div class="column-modal-action-action-1">
+                                Action-1
+                            </div>
+                            <div class="column-modal-action-action-2">
+                                Action-2
+                            </div>
+                            <div class="column-modal-action-action-1">
+                                Action-1
+                            </div>
+                            <div class="column-modal-action-action-2">
+                                Action-2
+                            </div>
+
+                        </div>
+                    </div>
+                    <div>
+                        <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=vscode&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522column-modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522column-modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Dialog%2520Header%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522column-modal-action%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522column-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-1%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522column-modal-action-action-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-2%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522column-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-1%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522column-modal-action-action-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-2%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            style="width: 530px; height: 558px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="get-started-header">confirmation modal</div>
+            <div>
+                <div class="confirmation-modal">
+                    <div class="confirmation-modal-header">
+                        Dialog Header
+                    </div>
+                    <div class="confirmation-modal-action">
+                        <div class="confirmation-modal-action-action-1">
+                            <input type="radio" name="confirm" value="item1">
+                            <label for="">item1</label>
+                        </div>
+                        <div class="confirmation-modal-action-action-2">
+                            <input type="radio" name="confirm" value="item2">
+                            <label for="">item2</label>
+                        </div>
+                        <div class="confirmation-modal-action-action-1">
+                            <input type="radio" name="confirm" value="item3">
+                            <label for="">item3</label>
+                        </div>
+                        <div class="confirmation-modal-action-action-2">
+                            <input type="radio" name="confirm" value="item4">
+                            <label for="">item4</label>
+                        </div>
+                        <div class="confirmation-modal-action-action-1">
+                            <input type="radio" name="confirm" value="item5">
+                            <label for="">item5</label>
+                        </div>
+
+
+                    </div>
+                    <div class="simple-modal-action">
+                        <div class="simple-modal-action-action-1">
+                            Action-1
+                        </div>
+                        <div class="simple-modal-action-action-2">
+                            Action-2
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522confirmation-modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Dialog%2520Header%2520%255C%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522confirm%2522%2520value%253D%2522item1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253Eitem1%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-action-action-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522confirm%2522%2520value%253D%2522item2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253Eitem2%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522confirm%2522%2520value%253D%2522item3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253Eitem3%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-action-action-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522confirm%2522%2520value%253D%2522item4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253Eitem4%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522confirmation-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522confirm%2522%2520value%253D%2522item5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253Eitem5%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-action-action-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-1%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522simple-modal-action-action-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Action-2%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 647px; height: 821px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
         </div>
     </div>
 

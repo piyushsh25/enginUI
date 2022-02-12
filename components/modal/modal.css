@@ -11,8 +11,9 @@
 
 .simple-modal {
     width: var(--size20R);
-    height: var(--size10R);
-    box-shadow: var(--size10) var(--size10) var(--size40) var(--color-icon);
+    height: 8rem;
+    box-shadow: var(--size10) var(--size10) var(--size40) var(--color-black);
+    margin: var(--size10);
 }
 
 .simple-modal-header {
@@ -26,7 +27,6 @@
     width: var(--size10R);
     margin: var(--size10P) var(--size8) 0 auto;
     font-weight: bolder;
-    font-size: var(--size9);
     justify-content: space-around;
 }
 
@@ -97,6 +97,7 @@
     background-color: var(--color-white);
     box-shadow: var(--size10) var(--size10) var(--size40) var(--color-icon);
     margin: var(--size12) 0;
+    background-color: inherit;
 }
 
 .confirmation-modal-header {
@@ -124,11 +125,4 @@
 
 .confirmation-modal-action-action-2 {
     padding: var(--size5);
-}
-
-@media only screen and (max-width:830px) {
-    .simple-modal-action-action-1 {
-        margin-right: var(--size6);
-        margin-top: var(--size0);
-    }
 }

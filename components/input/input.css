@@ -63,7 +63,7 @@
 .form .input-icon .icon {
     cursor: pointer;
     position: absolute;
-    right: 3%;
+    left: 91%;
     top: 37%;
     height: var(--size8);
     width: var(--size13);

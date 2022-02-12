@@ -1,5 +1,17 @@
 @import url("../../css/main.css");
-.nav-icons .header {
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-lightblue);
+    padding: var(--size12);
+    flex-wrap: wrap;
+    border: 2px solid grey;
+    border-radius: 4px;
+    margin: 0 var(--size10) var(--size20) 0;
+}
+
+.header {
     font-size: var(--size12);
     display: flex;
     margin-left: var(--size15);
@@ -9,35 +21,24 @@
     margin-right: var(--size5);
 }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--color-lightblue);
-    padding: var(--size12);
-    flex-wrap: wrap;
-}
-
-.nav-icons .links {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-}
-
-.text.links {
+.links {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
 
 .links .items {
-    margin-right: var(--size30);
+    margin-right: var(--size20);
     height: var(--size13);
     width: var(--size13);
     font-size: var(--size13);
 }
 
-.nav-icons .input {
+.text.links .items {
+    margin-right: var(--size30);
+}
+
+.input {
     margin-left: var(--size10R);
     padding: var(--size6);
     border: var(--size1) solid blueviolet;
@@ -45,11 +46,11 @@
 }
 
 @media only screen and (max-width:900px) {
-    .nav-icons .input {
+    .input {
         width: 70%;
         margin-left: var(--size12);
     }
-    .nav-icons .header {
+    .header {
         margin-right: 1%;
     }
     .nav-icons .links {

@@ -11,34 +11,34 @@
     margin: 0 var(--size10) var(--size20) 0;
 }
 
-.header {
+.nav-container .header {
     font-size: var(--size12);
     display: flex;
     margin-left: var(--size15);
 }
 
-.title-logo {
+.nav-container .title-logo {
     margin-right: var(--size5);
 }
 
-.links {
+.nav-container .links {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
 
-.links .items {
+.nav-container .links .items {
     margin-right: var(--size20);
     height: var(--size13);
     width: var(--size13);
     font-size: var(--size13);
 }
 
-.text.links .items {
+.nav-container .text.links .items {
     margin-right: var(--size30);
 }
 
-.input {
+.nav-container .input {
     margin-left: var(--size10R);
     padding: var(--size6);
     border: var(--size1) solid blueviolet;
@@ -46,11 +46,11 @@
 }
 
 @media only screen and (max-width:900px) {
-    .input {
+    .nav-container .input {
         width: 70%;
         margin-left: var(--size12);
     }
-    .header {
+    .nav-container .header {
         margin-right: 1%;
     }
     .nav-icons .links {
@@ -59,13 +59,13 @@
 }
 
 @media only screen and (max-width:638px) {
-    .input {
+    .nav-container .input {
         width: 70%;
     }
-    .links {
+    .nav-container .links {
         margin: var(--size10) 0 0 var(--size15);
     }
-    .nav-icons .links {
+    .nav-container .nav-icons .links {
         margin: var(--size10) 0 0 var(--size13);
     }
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../components/style.css">
     <link rel="stylesheet" href="./button.css">
     <title>enginUI | button</title>
 </head>
@@ -74,11 +75,39 @@
             </li>
         </ul>
         <div class="get-started-content">
-            <div class="get-started-header">To start using enginUI please attach the link in your HTML document.</div>
+            <div class="get-started-header">Class Button, having default background-color green</div>
             <div>
-                <iframe class="get-started-link" src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522getStarted.css%2522%253E"
-                    sandbox="allow-scripts allow-same-origin">
-      </iframe>
+                <div class="button primary">Primary Solid</div>
+                <div class="button disabled">Primary disabled</div>
+                <div class="button outline">Primary outline</div>
+                <div class="button link">Primary link</div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520primary%2522%253EPrimary%2520Solid%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520disabled%2522%253EPrimary%2520disabled%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520outline%2522%253EPrimary%2520outline%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520link%2522%253EPrimary%2520link%253C%252Fdiv%253E%250A"
+                    style="width: 614px; height: 298px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
+            <div class="get-started-header">For buttons with icon and text use button text. and in icons use icon-text.</div>
+            <div>
+                <div class="button text"> <img class="icon-text" src="https://img.icons8.com/ios-filled/20/000000/home.png" alt="" />Solid</div>
+                <div class="button text outline"> <img class="icon-text" src="https://img.icons8.com/ios-filled/20/000000/home.png" alt="" /> Primary </div>
+                <div class="button text disabled"> <img class="icon-text" src="https://img.icons8.com/ios-filled/20/000000/home.png" alt="" /> action</div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cdiv%2520class%253D%2522button%2520text%2522%253E%2520%253Cimg%2520class%253D%2522icon-text%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253ESolid%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522button%2520text%2520outline%2522%253E%2520%253Cimg%2520class%253D%2522icon-text%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%2520Primary%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522button%2520text%2520disabled%2522%253E%2520%253Cimg%2520class%253D%2522icon-text%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%2520action%253C%252Fdiv%253E"
+                    style="width: 892px; height: 298px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <div class="get-started-header">Button icons only.</div>
+            <div>
+                <div class="button icon"><img class="icon" src="https://img.icons8.com/ios-filled/20/000000/home.png" alt="img" /></div>
+            </div>
+            <div>
+                <iframe src="https://carbon.now.sh/embed?bg=rgba%28173%2C216%2C230%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=29px&dsblur=100px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522button%2520icon%2522%253E%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522%2522%2520alt%253D%2522%2522%2520%252F%253E%253C%252Fdiv%253E%2520%2520%2520%2520%2520"
+                    style="width: 791px; height: 205px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+</iframe>
             </div>
         </div>
     </div>

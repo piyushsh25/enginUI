@@ -1,6 +1,6 @@
 @import url("../../css/main.css");
 .card {
-    margin: var(--size10);
+    margin: var(--size40) 0;
     width: var( --size20R);
     height: 25rem;
     border-radius: var(--size5P);
@@ -55,7 +55,11 @@
     height: var(--size16);
     width: var(--size35);
     border-radius: var(--size10P);
-    padding: var(--size4);
+    padding: var(--size4) var(--size10);
+}
+
+.card .text-div .card-icons.text-icon:nth-child(2) {
+    padding: var(--size4) var(--size20);
 }
 
 
@@ -70,12 +74,14 @@
     position: absolute;
     top: 40%;
     color: var(--color-white);
+    background-color: transparent;
 }
 
 .text-overlay-card .text-div .header-bottom {
     position: absolute;
     top: 47%;
     color: var(--color-white);
+    background-color: transparent;
 }
 
 

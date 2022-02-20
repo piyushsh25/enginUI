@@ -118,3 +118,6 @@ The available components are as follows.
 
  * Simple snackbar
  * Stacked snackbar 
+
+ ## Video
+ [Video](./assets/screen-capture.webm)

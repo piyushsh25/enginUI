@@ -120,4 +120,4 @@ The available components are as follows.
  * Stacked snackbar 
 
  ## Video
- [gif](./assets/screen-capture.gif)
+ ![gif](./assets/screen-capture.gif)

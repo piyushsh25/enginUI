@@ -1,9 +1,9 @@
-![App Screenshot](./assets/Screenshot.png)
-
-
 # enginUI
 
 let enginUI make your web dev. experience easy. enginUI is here, with you and for you.
+
+![App Screenshot](./assets/Screenshot.png)
+
 
 ## Get Started
 
@@ -119,5 +119,5 @@ The available components are as follows.
  * Simple snackbar
  * Stacked snackbar 
 
- ## Video
+ ## Site overview
  ![gif](./assets/screen-capture.gif)

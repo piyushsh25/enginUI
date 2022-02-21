@@ -11,6 +11,7 @@
     grid-template-columns: 1fr 10fr;
     gap: var(--size10);
     margin-top: var(--size10);
+    margin-right: 10%;
 }
 
 .component-links {
@@ -58,4 +59,8 @@
 .select {
     color: var(--color-success);
     font-size: var(--size11);
+}
+
+.box-wrapper {
+    margin-bottom: 5%;
 }

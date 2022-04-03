@@ -3,7 +3,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
     @import url(./css/main.css);
     * {
-        background-color: var(--color-lightblue);
+        background-color: var(--color-white);
         font-family: var(--primary-font-family);
     }
     
@@ -27,10 +27,18 @@
     }
     
     .main-heading-link {
+        margin-left: 5rem;
         font-family: 'Inconsolata', monospace;
         text-decoration: none;
     }
     
+    .img-responsive{
+     width: 150%;
+    }
+    .main-body{
+        display: flex;
+        margin-left: 2rem;
+    }
     .nav {
         padding: var(--size11) var(--size25) 0 0;
         display: flex;
@@ -54,12 +62,8 @@
     }
     
     .landing-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin-top: 5%;
+        margin-top: 2rem;
+       margin-left: 5rem;
     }
     
     .body-heading {
@@ -70,15 +74,15 @@
     
     .body-description {
         margin-top: var(--size5);
-        font-size: var(--size17);
-        width: 63%;
+        font-size: var(--size10);
+        width: 45%;
     }
     
     .body-button {
         margin: var(--size5P) 0 0 0;
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
+        white-space: nowrap;
     }
     
     .body-button .nav-items {
@@ -106,19 +110,18 @@
         color: var(--color-black);
         border: var(--size1) var(--color-primary-hover);
     }
-    
-    .landing-footer {
-        margin: var(--size5P) 0 0 0;
+
+    span{
+        color: rgb(130, 7, 130);
     }
-    
     .footer-icons {
         display: flex;
         justify-content: center;
-        margin: 2% 2%;
+        margin: 2% 2% 0 0;
     }
     
     .footer-img {
-        margin: 0% 1% 0 1%;
+        margin: 0% 2% 0 2%;
         width: var(--size20);
     }
     
@@ -131,3 +134,22 @@
         justify-content: center;
         font-size: var(--size12);
     }
+
+
+    
+@media (max-width: 800px) {
+    .main-body {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .body-button{
+        margin-bottom: 2rem;
+    }
+    .landing-body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}

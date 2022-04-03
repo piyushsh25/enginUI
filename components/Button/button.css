@@ -35,13 +35,13 @@
     background-color: inherit;
 }
 
-.button.icon {
+.button.floating-icon {
     background-color: var(--color-background);
     border-radius: var(--rounded);
     width: var(--size22);
     height: var(--size22);
 }
 
-.button.icon .icon {
+.button.floating-icon .icon {
     background-color: inherit;
 }

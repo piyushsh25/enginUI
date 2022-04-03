@@ -1,7 +1,7 @@
 @import url("../css/main.css");
 @import url("../../../index.css");
 * {
-    background-color: var(--color-lightblue);
+    background-color: var(--color-white);
 }
 
 .get-started-body {

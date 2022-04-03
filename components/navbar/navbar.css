@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color-lightblue);
+    background-color: var(--color-white);
     padding: var(--size12);
     flex-wrap: wrap;
     border: 2px solid grey;
